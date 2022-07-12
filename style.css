@@ -1,0 +1,263 @@
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    border-right:1px solid #000;
+    border-left:1px solid #000;
+    font-family: 'Manrope', 'Montserrat', sans-serif
+}
+
+.header {
+    width: 960px;
+    display: flex;
+    margin-top: 31px;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+      
+}
+
+.header__logo {
+    width: 72px;
+   
+}
+
+.header__menu {
+    width: 591px;
+    display: flex;
+        font-family: 'Manrope';
+      font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.header__menu-list {
+       display: flex;
+    align-items: flex-end;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+   }
+
+.content {
+    width: 100%;
+    margin-left: 20px;
+ 
+   
+}
+
+.content_lid {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 200px;
+
+}
+
+.content_lid_title_small {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.03em;
+text-align: center;
+margin-right: 45px;
+padding-bottom: 15px;
+}
+
+.content_lid_title_big {
+    width: 409px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 134px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #930505;
+    text-align: center;
+      margin-right: 38px;
+ 
+}
+.content_lid_text {
+    width: 622px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.content_lid_button {
+
+
+}
+
+.content__box {
+    width: 984px;
+    display: flex;
+      justify-content: space-between;
+    margin-bottom: 48px;
+   }
+
+   .content_h2 {
+    width: 212px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 0.03em;
+   
+   }
+
+ 
+   .content__box_left {
+    width: 468px;
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content__box_right {
+    width: 470px;
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+
+   .context_box_left_pic{
+    margin-top: 0;
+   }
+
+   .content_box_left_article{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  
+
+
+   }
+.content_h3 {
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.content_paragraph {
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 13px;
+width: 450px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.02em;
+}
+
+.content_link {
+    margin-top: 47px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+color: #023A62
+}
+
+.content_price {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+}
+
+
+
+.line {
+border-bottom: 1px solid #000;
+
+
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 199px;
+    border-top:1px solid #000;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer_box_left{
+    width: 500px;
+    display: flex;
+   flex-direction: column;
+}
+
+.footer_box_right {
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.footer_logo{
+    margin-bottom: 67px;
+    margin-right: 20px;
+}
+
+.footer__menu {
+    display: flex;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 41px;
+    margin-left: 20px;
+    
+}
+
+.footer__menu-list {
+       display: flex;
+      justify-content: space-between;
+    list-style: none;
+    gap: 33px;
+    margin: 0;
+    padding: 0;
+   }
+
+   .footer_phone {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 52px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+   }
